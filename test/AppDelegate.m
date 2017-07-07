@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "kvc.h"
+#import "BeisaieRcurve.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+//    self.window.rootViewController = [[BeisaieRcurve alloc]init];
     // Override point for customization after application launch.
     return YES;
 }
